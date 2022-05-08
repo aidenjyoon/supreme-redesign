@@ -8,7 +8,9 @@ import timezone from "dayjs/plugin/timezone";
 const Logo = () => {
   dayjs.extend(utc);
   dayjs.extend(timezone); // needs utc
-  const [currTime, setCurrTime] = useState("");
+  const [currTime, setCurrTime] = useState(
+    dayjs().tz("America/New_York").format("MM/DD/YYYY, h:mma")
+  );
 
   // auto refreshes every second to display time in new york
   useEffect(() => {

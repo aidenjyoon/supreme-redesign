@@ -10,17 +10,6 @@ import timezone from "dayjs/plugin/timezone";
 import Logo from "../components/Logo";
 
 export default function Home() {
-  dayjs.extend(utc);
-  dayjs.extend(timezone); // needs utc
-  const [currTime, setCurrTime] = useState("");
-
-  // auto refreshes every second to display time in new york
-  useEffect(() => {
-    setInterval(() => {
-      setCurrTime(dayjs().tz("America/New_York").format("MM/DD/YYYY, h:mma"));
-    }, 1000);
-  }, [currTime]);
-
   return (
     <>
       <div className={styles.container}>
@@ -36,7 +25,7 @@ export default function Home() {
           <nav className={styles.menu}>
             <ul>
               <li>
-                <Link href="/">news</Link>
+                <Link href="/news">news</Link>
               </li>
               <li>
                 <Link href="/">sprint/summer 2022 preview</Link>
@@ -73,7 +62,7 @@ export default function Home() {
           </nav>
         </main>
 
-        <footer className={styles.footer}>asdf</footer>
+        <footer className={styles.footer}>footer</footer>
       </div>
     </>
   );

@@ -1,8 +1,10 @@
 .header {
+  font-family: "Courier New", "Courier Prime", Courier, monospace;
+
   display: flex;
   justify-content: center;
   align-items: center;
-  width: 666px;
+  max-width: 818px;
   margin: 0 auto;
   flex-direction: column;
 

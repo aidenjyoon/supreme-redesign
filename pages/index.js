@@ -31,20 +31,8 @@ export default function Home() {
         </Head>
 
         <main className={styles.main}>
-          <hgroup>
-            <Image
-              className={styles.logo}
-              src="/images/logo-supreme.jpg"
-              width={150}
-              height={45}
-              alt="supreme logo"
-            />
-            <time data-timezone-offset="-14400">
-              {currTime}
-              <span id="time-zone-name"> NYC</span>
-            </time>
-          </hgroup>
-          {/* <Logo /> */}
+          <Logo />
+
           <nav className={styles.menu}>
             <ul>
               <li>

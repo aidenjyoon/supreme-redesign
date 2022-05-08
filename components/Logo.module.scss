@@ -1,0 +1,17 @@
+.header {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  width: 666px;
+  margin: 0 auto;
+  flex-direction: column;
+
+  // margin: 4rem 0;
+  .logo {
+    margin: 2rem 0;
+  }
+  time {
+    padding: 1rem 0;
+    // font-size: 14px;
+  }
+}

@@ -1,0 +1,115 @@
+@import url("https://fonts.googleapis.com/css2?family=Courier+Prime:ital,wght@0,400;0,700;1,400;1,700&display=swap");
+@import "_variables";
+
+.container {
+  height: 100vh;
+  font-family: "Courier New", "Courier Prime", Courier, monospace;
+
+  background-color: #000000;
+  color: #ffffff;
+}
+
+.main {
+  // border: 1px solid red;
+  display: grid;
+  place-content: center;
+  grid-template: 150px / auto;
+  height: 100%;
+  width: 100%;
+
+  // background image
+  background-image: url("/images/background.gif");
+  height: 100vh;
+  background-size: cover;
+  background-repeat: no-repeat;
+
+  hgroup {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 666px;
+    margin: 0 auto;
+    flex-direction: column;
+
+    // margin: 4rem 0;
+    .logo {
+      margin: 2rem 0;
+    }
+    time {
+      padding: 1rem 0;
+      // font-size: 14px;
+    }
+  }
+
+  .menu {
+    // background-color: #eaeaea;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    font-size: $font-size;
+
+    ul {
+      list-style: none;
+      display: flex;
+      flex-direction: column;
+      align-items: center;
+      justify-content: center;
+      padding: 0;
+      // width: 666px;
+      // width: 100%;
+
+      li {
+        line-height: 2em;
+        a {
+          &:hover {
+            padding: 4px;
+            background-color: #ff0000;
+          }
+          // border: 1px solid red;
+        }
+      }
+    }
+
+    .socials {
+      margin-top: 20px;
+
+      a {
+        color: #9c9c9c;
+        padding: 0 22px;
+
+        &:hover {
+          color: #ffffff;
+        }
+      }
+    }
+  }
+}
+
+.footer {
+  // background-color: #fd9b9b;
+
+  display: flex;
+  // flex: 1;
+  // padding: 2rem 0;
+  position: fixed;
+  bottom: 0;
+  border-top: 1px solid #eaeaea;
+  justify-content: center;
+  align-items: center;
+  width: 100%;
+  border: 1px solid blue;
+
+  a {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-grow: 1;
+  }
+}
+
+// @media (max-width: 600px) {
+//   .grid {
+//     width: 100%;
+//     flex-direction: column;
+//   }
+// }

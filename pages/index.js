@@ -28,26 +28,19 @@ export default function Home() {
                 <Link href="/news">news</Link>
               </li>
               <li>
-                <Link href="/">sprint/summer 2022 preview</Link>
-              </li>
-              <li>
-                <Link href="/">sprint/summer 2022 lookbook</Link>
+                <Link href="/">spring/summer 2022 lookbook</Link>
               </li>
               <li>
                 <Link href="/">shop</Link>
               </li>
+
               <li>
-                <Link href="/">random</Link>
+                <Link href="/">videos</Link>
               </li>
               <li>
-                <Link href="/">about</Link>
+                <Link href="/">store locations</Link>
               </li>
-              <li>
-                <Link href="/">stores</Link>
-              </li>
-              <li>
-                <Link href="/">contact</Link>
-              </li>
+
               <li>
                 <Link href="/">mailinglist</Link>
               </li>

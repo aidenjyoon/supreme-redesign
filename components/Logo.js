@@ -5,12 +5,14 @@ import { useState, useEffect } from "react";
 import dayjs from "dayjs";
 import utc from "dayjs/plugin/utc";
 import timezone from "dayjs/plugin/timezone";
-const Logo = () => {
+
+const Logo = (props) => {
   dayjs.extend(utc);
   dayjs.extend(timezone); // needs utc
   const [currTime, setCurrTime] = useState(
     dayjs().tz("America/New_York").format("MM/DD/YYYY, h:mma")
   );
+  const { showTime = false } = props;
 
   // auto refreshes every second to display time in new york
   useEffect(() => {
@@ -18,6 +20,7 @@ const Logo = () => {
       setCurrTime(dayjs().tz("America/New_York").format("MM/DD/YYYY, h:mma"));
     }, 1000);
   }, [currTime]);
+
   return (
     <hgroup className={styles.header}>
       <Image
@@ -27,10 +30,12 @@ const Logo = () => {
         height={45}
         alt="supreme logo"
       />
-      <time data-timezone-offset="-14400">
-        {currTime}
-        <span id="time-zone-name"> NYC</span>
-      </time>
+      {showTime && (
+        <time data-timezone-offset="-14400">
+          {currTime}
+          <span id="time-zone-name"> NYC</span>
+        </time>
+      )}
     </hgroup>
   );
 };

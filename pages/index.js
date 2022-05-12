@@ -20,7 +20,7 @@ export default function Home() {
         </Head>
 
         <main className={styles.main}>
-          <Logo />
+          <Logo showTime={true} />
 
           <nav className={styles.menu}>
             <ul>

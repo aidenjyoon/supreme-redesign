@@ -7,7 +7,7 @@ import { useState, useEffect } from "react";
 import dayjs from "dayjs";
 import utc from "dayjs/plugin/utc";
 import timezone from "dayjs/plugin/timezone";
-import Logo from "../components/Logo";
+import Logo from "../components/logo/Logo";
 
 export default function Home() {
   return (

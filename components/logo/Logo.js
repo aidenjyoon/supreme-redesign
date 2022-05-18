@@ -5,6 +5,7 @@ import { useState, useEffect } from "react";
 import dayjs from "dayjs";
 import utc from "dayjs/plugin/utc";
 import timezone from "dayjs/plugin/timezone";
+import Link from "next/link";
 
 const Logo = (props) => {
   dayjs.extend(utc);
@@ -23,13 +24,18 @@ const Logo = (props) => {
 
   return (
     <hgroup className={styles.header}>
-      <Image
-        className={styles.logo}
-        src="/images/logo-supreme.jpg"
-        width={150}
-        height={45}
-        alt="supreme logo"
-      />
+      <Link href="/">
+        <a>
+          <Image
+            className={styles.logo}
+            src="/images/logo-supreme-large.jpg"
+            width={150}
+            height={45}
+            alt="supreme box logo"
+          />
+        </a>
+      </Link>
+
       {showTime && (
         <time data-timezone-offset="-14400">
           {currTime}

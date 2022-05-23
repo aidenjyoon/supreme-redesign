@@ -20,6 +20,7 @@ const NewsContent = () => {
               height={585}
               alt="news image"
               layout={"responsive"}
+              className={styles.image}
             />
           </div>
           <article className={styles.container__news}>

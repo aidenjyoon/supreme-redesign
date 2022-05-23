@@ -14,24 +14,10 @@
   max-width: 1046px;
   margin: 0 auto;
 
-  // .container__logo {
-  //   grid-column: 1 / -1;
-
-  //   display: flex;
-  //   flex-direction: column;
-  //   justify-content: center;
-  //   align-items: center;
-  //   margin-bottom: 36px;
-  //   font-style: italic;
-
-  //   a {
-  //     padding: 0;
-  //     margin: 0;
-  //   }
-  // }
-
   .container__image {
-    max-height: 585px;
+    .image {
+      object-fit: contain;
+    }
   }
 
   .container__news {
@@ -46,7 +32,7 @@
 @media only screen and (max-width: 1224px) {
   .container__content {
     display: grid;
-    max-width: 742px;
+    max-width: 830px;
     margin: 0 auto;
     height: 636px;
 
@@ -57,5 +43,14 @@
       // align-items: center;
       // place-content: center;
     }
+  }
+}
+
+@media only screen and (max-height: 760px) {
+  // .container__image {
+  //   max-height: 630px;
+  // }
+  .container__content {
+    max-height: 505px;
   }
 }

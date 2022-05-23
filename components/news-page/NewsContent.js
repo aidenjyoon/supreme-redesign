@@ -1,5 +1,6 @@
 import Image from "next/image";
-import Logo from "../logo/Logo";
+// import Logo from "../logo/Logo";
+// import Navbar from "../nav/Navbar";
 import styles from "./NewsContent.module.scss";
 
 const NewsContent = () => {
@@ -7,10 +8,11 @@ const NewsContent = () => {
     <>
       <div className={styles.container}>
         <div className={styles.container__content}>
-          <div className={styles.container__logo}>
+          {/* <div className={styles.container__logo}>
             <Logo />
             <h2>News</h2>
-          </div>
+            <Navbar />
+          </div> */}
           <div className={styles.container__image}>
             <Image
               src="/images/bomber-jacket.jpg"

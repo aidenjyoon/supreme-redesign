@@ -1,0 +1,14 @@
+.container {
+  display: grid;
+  height: 100vh;
+
+  .navbar {
+    margin: 20px 0;
+  }
+}
+
+@media only screen and (min-height: 760px) {
+  .container {
+    place-content: center;
+  }
+}

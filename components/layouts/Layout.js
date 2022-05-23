@@ -1,12 +1,18 @@
 import Logo from "../logo/Logo";
 import Navbar from "./Navbar";
+import styles from "./Layout.module.scss";
 
 const Layout = (props) => {
   return (
     <>
-      <Logo />
-      <Navbar />
-      {props.children}
+      <div className={styles.container}>
+        <div className={styles.navbar}>
+          <Logo />
+          <Navbar />
+        </div>
+
+        {props.children}
+      </div>
     </>
   );
 };

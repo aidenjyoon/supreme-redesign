@@ -9,7 +9,7 @@ import utc from "dayjs/plugin/utc";
 import timezone from "dayjs/plugin/timezone";
 import Logo from "../components/logo/Logo";
 
-export default function Home() {
+const Home = () => {
   return (
     <>
       <div className={styles.container}>
@@ -33,7 +33,6 @@ export default function Home() {
               <li>
                 <Link href="/">shop</Link>
               </li>
-
               <li>
                 <Link href="/">videos</Link>
               </li>
@@ -59,4 +58,6 @@ export default function Home() {
       </div>
     </>
   );
-}
+};
+
+export default Home;

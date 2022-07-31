@@ -1,0 +1,63 @@
+@import "../../styles/variables";
+
+.carousel {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: $max-height;
+  width: $width-size-perc;
+  margin: 0 auto;
+  margin-top: 20px;
+  overflow: hidden;
+
+  .carousel__container {
+    height: 100%;
+    width: 100%;
+    overflow-x: auto;
+
+    // scrollbar
+    scroll-snap-type: x mandatory;
+    scroll-behavior: smooth;
+    -webkit-overflow-scrolling: touch;
+
+    &::-webkit-scrollbar {
+      width: 10px;
+      height: 10px;
+    }
+    &::-webkit-scrollbar-thumb {
+      background: black;
+      border-radius: 10px;
+    }
+    &::-webkit-scrollbar-track {
+      background: white;
+    }
+  }
+
+  .carousel__track {
+    // display: flex;
+    list-style: none;
+    position: relative;
+    height: 100%;
+    width: 100%;
+
+    .carousel__slide {
+      position: relative;
+
+      width: 100%;
+      height: 100%;
+      border: 1px solid red;
+
+      & > span {
+        scroll-snap-align: start;
+        flex-shrink: 0;
+        width: 300px;
+        height: 300px;
+      }
+
+      .carousel__image {
+        height: 100%;
+        object-fit: contain;
+      }
+    }
+  }
+}

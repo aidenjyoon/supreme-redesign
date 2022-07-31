@@ -7,9 +7,9 @@ import { useState, useEffect } from "react";
 import dayjs from "dayjs";
 import utc from "dayjs/plugin/utc";
 import timezone from "dayjs/plugin/timezone";
-import Logo from "../components/logo/Logo";
+import Logo from "../components/layouts/logo/Logo";
 
-const Home = () => {
+const HomePage = () => {
   return (
     <>
       <div className={styles.container}>
@@ -28,10 +28,10 @@ const Home = () => {
                 <Link href="/news">news</Link>
               </li>
               <li>
-                <Link href="/">spring/summer 2022 lookbook</Link>
+                <Link href="/lookbook">spring/summer 2022 lookbook</Link>
               </li>
               <li>
-                <Link href="/">shop</Link>
+                <Link href="/shop">shop</Link>
               </li>
               <li>
                 <Link href="/">videos</Link>
@@ -60,4 +60,4 @@ const Home = () => {
   );
 };
 
-export default Home;
+export default HomePage;

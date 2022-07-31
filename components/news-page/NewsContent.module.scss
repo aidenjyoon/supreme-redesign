@@ -1,3 +1,5 @@
+@import "../../styles/variables";
+
 .container {
   display: flex;
   justify-content: center;
@@ -11,7 +13,7 @@
   grid-column-gap: 18px;
   place-content: center;
 
-  max-width: 1046px;
+  max-width: $max-width;
   margin: 0 auto;
 
   .container__image {
@@ -21,7 +23,7 @@
   }
 
   .container__news {
-    max-height: 585px;
+    max-height: $max-height;
     overflow: scroll;
     overflow-wrap: break-word;
     hyphens: auto;
@@ -40,8 +42,6 @@
       display: flex;
       flex-direction: column;
       justify-content: center;
-      // align-items: center;
-      // place-content: center;
     }
   }
 }

@@ -1,0 +1,26 @@
+@import "../../styles/variables";
+
+.container {
+  width: 100%;
+
+  .container__images {
+    display: grid;
+    grid-auto-flow: row;
+    grid-template-columns: repeat(4, 1fr);
+    // row-gap: 20px;
+    column-gap: 20px;
+    width: $width-size-perc;
+    justify-content: center;
+    align-items: center;
+    margin: 20px auto;
+
+    a {
+      display: flex;
+      justify-content: center;
+
+      .img {
+        object-fit: contain;
+      }
+    }
+  }
+}

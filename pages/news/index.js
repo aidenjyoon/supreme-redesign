@@ -9,6 +9,4 @@ const NewsPage = () => {
   );
 };
 
-NewsPage.layout = "L";
-
 export default NewsPage;

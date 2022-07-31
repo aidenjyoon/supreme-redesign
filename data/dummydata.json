@@ -1,0 +1,20 @@
+{
+  "images": {
+    "image1": {
+      "src": "/images/ss22lookbook/image1",
+      "alt": "image1"
+    },
+    "image2": {
+      "src": "/images/ss22lookbook/image2",
+      "alt": "image2"
+    },
+    "image3": {
+      "src": "/images/ss22lookbook/image3",
+      "alt": "image3"
+    },
+    "image4": {
+      "src": "/images/ss22lookbook/image4",
+      "alt": "image4"
+    }
+  }
+}

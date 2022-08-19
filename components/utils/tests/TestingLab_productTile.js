@@ -17,20 +17,12 @@ const TestingLab_productTile = () => {
 
   const scrollL = (id) => {
     const slider = product_image.current;
-
-    // found the scroll width of element.
-    // want to scroll location with button clicks
-    // console.log(slider.scrollWidth);
-    // console.log(typeof (slider.scrollWidth / 5));
-    // console.log(parseInt(id));
-
     const scrollVal = (slider.scrollWidth / 5) * id;
     slider.scrollTo({ left: scrollVal, behavior: "smooth" });
   };
 
   const buttonHandler = (e) => {
     const id = e.nativeEvent.path[2].id;
-    // console.log("id:", id);
     scrollL(id);
   };
 

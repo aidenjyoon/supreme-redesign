@@ -39,9 +39,17 @@ const HomePage = () => {
               <li>
                 <Link href="/">store locations</Link>
               </li>
-
               <li>
                 <Link href="/">mailinglist</Link>
+              </li>
+              <li>
+                <Link href="/tests/test">test</Link>
+              </li>
+              <li>
+                <Link href="/tests/test2">test2</Link>
+              </li>
+              <li>
+                <Link href="/tests/test3">producttile test3</Link>
               </li>
             </ul>
 

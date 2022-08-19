@@ -2,6 +2,8 @@
   height: 100%;
   overflow: hidden;
   display: flex;
+  flex-direction: column;
+
   align-items: center;
   justify-content: center;
   border: 1px solid red;
@@ -50,6 +52,17 @@
 }
 .slides > div:target {
   transform: scale(0.8);
+}
+
+.thumbnail {
+  display: grid;
+  grid-template-columns: repeat(1fr, 5);
+  flex-shrink: 0;
+  width: 100px;
+  height: 140px;
+
+  margin: 10px;
+  // transform-origin: center center;
 }
 
 .slider > a {

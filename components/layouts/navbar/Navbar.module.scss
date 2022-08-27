@@ -1,0 +1,14 @@
+.navbar {
+  margin-top: 10px;
+
+  ul {
+    list-style: none;
+    display: flex;
+    align-items: baseline;
+    justify-content: center;
+
+    li {
+      margin: 0 1rem;
+    }
+  }
+}

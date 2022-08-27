@@ -7,9 +7,9 @@ import { useState, useEffect } from "react";
 import dayjs from "dayjs";
 import utc from "dayjs/plugin/utc";
 import timezone from "dayjs/plugin/timezone";
-import Logo from "../components/Logo";
+import Logo from "../components/layouts/logo/Logo";
 
-export default function Home() {
+const HomePage = () => {
   return (
     <>
       <div className={styles.container}>
@@ -20,7 +20,7 @@ export default function Home() {
         </Head>
 
         <main className={styles.main}>
-          <Logo />
+          <Logo showTime={true} />
 
           <nav className={styles.menu}>
             <ul>
@@ -28,21 +28,28 @@ export default function Home() {
                 <Link href="/news">news</Link>
               </li>
               <li>
-                <Link href="/">spring/summer 2022 lookbook</Link>
+                <Link href="/lookbook">spring/summer 2022 lookbook</Link>
               </li>
               <li>
-                <Link href="/">shop</Link>
+                <Link href="/shop">shop</Link>
               </li>
-
               <li>
                 <Link href="/">videos</Link>
               </li>
               <li>
                 <Link href="/">store locations</Link>
               </li>
-
               <li>
                 <Link href="/">mailinglist</Link>
+              </li>
+              <li>
+                <Link href="/tests/test">test</Link>
+              </li>
+              <li>
+                <Link href="/tests/test2">test2</Link>
+              </li>
+              <li>
+                <Link href="/tests/test3">producttile test3</Link>
               </li>
             </ul>
 
@@ -59,4 +66,6 @@ export default function Home() {
       </div>
     </>
   );
-}
+};
+
+export default HomePage;

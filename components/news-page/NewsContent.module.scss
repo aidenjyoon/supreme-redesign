@@ -1,0 +1,56 @@
+@import "../../styles/variables";
+
+.container {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  margin: 20px 0;
+}
+
+.container__content {
+  display: grid;
+  grid-template-columns: repeat(2, 1fr);
+  grid-column-gap: 18px;
+  place-content: center;
+
+  max-width: $max-width;
+  margin: 0 auto;
+
+  .container__image {
+    .image {
+      object-fit: contain;
+    }
+  }
+
+  .container__news {
+    max-height: $max-height;
+    overflow: scroll;
+    overflow-wrap: break-word;
+    hyphens: auto;
+  }
+}
+
+// large tablet || small laptop
+@media only screen and (max-width: 1224px) {
+  .container__content {
+    display: grid;
+    max-width: 830px;
+    margin: 0 auto;
+    height: 636px;
+
+    .container__image {
+      display: flex;
+      flex-direction: column;
+      justify-content: center;
+    }
+  }
+}
+
+@media only screen and (max-height: 760px) {
+  // .container__image {
+  //   max-height: 630px;
+  // }
+  .container__content {
+    max-height: 505px;
+  }
+}

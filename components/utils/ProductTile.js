@@ -1,4 +1,4 @@
-import styles from "./ProdcutTile.module.scss";
+import styles from "./ProductTile.module.scss";
 
 import Image from "next/image";
 import Link from "next/link";
@@ -13,17 +13,27 @@ const dummyData = [
 ];
 
 const ProductTile = () => {
-  const slider = useRef(null);
+  const product_image = useRef(null);
+
+  const scrollL = (id) => {
+    const slider = product_image.current;
+    const scrollVal = (slider.scrollWidth / 5) * id;
+    slider.scrollTo({ left: scrollVal, behavior: "smooth" });
+  };
+
+  const buttonHandler = (e) => {
+    const id = e.nativeEvent.path[2].id;
+    scrollL(id);
+  };
 
   return (
     <>
-      {/* main preview */}
       <div className={styles.productTile}>
-        <div className={styles.product__images}>
+        <div className={styles.product__images} ref={product_image}>
           {dummyData.map((img, idx) => {
             return (
               <>
-                <div className={styles.slide__image} key={idx}>
+                <div className={styles.slide__image} key={idx} id={idx}>
                   <Link href="/test3">
                     <a>
                       <Image
@@ -40,13 +50,12 @@ const ProductTile = () => {
           })}
         </div>
 
-        {/* style preview */}
         <div className={styles.product__preview}>
           {dummyData.map((img, idx) => {
             return (
               <>
-                <div className={styles.thumbnail} key={idx} id={idx}>
-                  <button>
+                <div className={styles.thumbnail} key={idx}>
+                  <button onClick={buttonHandler} key={idx} id={idx}>
                     <Image
                       src={img.src}
                       width={892}
@@ -60,7 +69,6 @@ const ProductTile = () => {
           })}
         </div>
 
-        {/* information */}
         <div className={styles.product__info}>
           <p className={styles.product__name}>Name of Clothing</p>
           <p className={styles.product__price}>$40.00</p>

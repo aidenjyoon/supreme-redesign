@@ -1,20 +1,366 @@
 {
-  "images": {
-    "image1": {
-      "src": "/images/ss22lookbook/image1",
-      "alt": "image1"
+  "fw22": {
+    "accessories": {
+      "Beanie Baby": {
+        "image1": {
+          "src": "/images/fw22/accessories/Beanie Baby/4F0z3SudVcw.jpg",
+          "alt": "bear sideview"
+        },
+        "image2": {
+          "src": "/images/fw22/accessories/Beanie Baby/ZwqRvbmAG-w.jpg",
+          "alt": "bear frontview"
+        }
+      },
+      "pocket light": {
+        "item1": {
+          "image1": {
+            "src": "/images/fw22/accessories/pocket light/black/Q2I9HiRxIuI.jpg",
+            "alt": "black pocket light off",
+            "color": "black"
+          },
+          "image2": {
+            "src": "/images/fw22/accessories/pocket light/black/y0KA5G9ZtaM.jpg",
+            "alt": "black pocket light on",
+            "color": "black"
+          }
+        },
+
+        "item2": {
+          "image1": {
+            "src": "/images/fw22/accessories/pocket light/red/CLsR_iRL_Tw.jpg",
+            "alt": "red pocket light off",
+            "color": "red"
+          },
+          "image2": {
+            "src": "/images/fw22/accessories/pocket light/red/k4n0Z3kr1iA.jpg",
+            "alt": "red pocket light on",
+            "color": "red"
+          }
+        }
+      },
+      "toolbox": {
+        "item1": {
+          "image1": {
+            "src": "/images/fw22/accessories/toolbox/blue/nE3SOdpvvV4.jpg",
+            "alt": "blue toolbox closed",
+            "color": "blue"
+          },
+          "image2": {
+            "src": "/images/fw22/accessories/toolbox/blue/yJF8_0RX7lY.jpg",
+            "alt": "blue toolbox open",
+            "color": "blue"
+          }
+        },
+        "item2": {
+          "image1": {
+            "src": "/images/fw22/accessories/toolbox/red/VUzD4iHHnIM.jpg",
+            "alt": "red toolbox closed",
+            "color": "red"
+          },
+          "image2": {
+            "src": "/images/fw22/accessories/toolbox/red/-XrZBA2b19k.jpg",
+            "alt": "red toolbox open",
+            "color": "red"
+          }
+        }
+      }
     },
-    "image2": {
-      "src": "/images/ss22lookbook/image2",
-      "alt": "image2"
+
+    "jackets": {
+      "Gonz_GORE-TEX_Shell_Jacket": {
+        "item1": {
+          "image1": {
+            "src": "/images/fw22/jackets/Gonz_GORE-TEX_Shell_Jacket/black/Eb_O45LRRsc.jpg",
+            "alt": "black gonz gore-tex jacket front",
+            "color": "black"
+          },
+          "image2": {
+            "src": "/images/fw22/jackets/Gonz_GORE-TEX_Shell_Jacket/black/qDTmBBAqcs8.jpg",
+            "alt": "black gonz gore-tex jacket back",
+            "color": "black"
+          },
+          "image3": {
+            "src": "/images/fw22/jackets/Gonz_GORE-TEX_Shell_Jacket/black/sHJU2f-elzY.jpg",
+            "alt": "black gonz gore-tex jacket pattern",
+            "color": "black"
+          }
+        },
+        "item2": {
+          "image1": {
+            "src": "/images/fw22/jackets/Gonz_GORE-TEX_Shell_Jacket/desert_camo/S6K6rk8lxSc.jpg",
+            "alt": "desert-camo gonz gore-tex jacket front",
+            "color": "desert_camo"
+          },
+          "image2": {
+            "src": "/images/fw22/jackets/Gonz_GORE-TEX_Shell_Jacket/desert_camo/e8wyOE6zpbg.jpg",
+            "alt": "desert-camo gonz gore-tex jacket back",
+            "color": "desert_camo"
+          },
+          "image3": {
+            "src": "/images/fw22/jackets/Gonz_GORE-TEX_Shell_Jacket/desert_camo/q657OsFcYHE.jpg",
+            "alt": "desert-camo gonz gore-tex jacket pattern",
+            "color": "desert_camo"
+          }
+        },
+        "item3": {
+          "image1": {
+            "src": "/images/fw22/jackets/Gonz_GORE-TEX_Shell_Jacket/yellow/mQ5mI2bJjHI.jpg",
+            "alt": "yellow gonz gore-tex jacket front",
+            "color": "yellow"
+          },
+          "image2": {
+            "src": "/images/fw22/jackets/Gonz_GORE-TEX_Shell_Jacket/yellow/TR4jgLPrIgU.jpg",
+            "alt": "yellow gonz gore-tex jacket back",
+            "color": "yellow"
+          },
+          "image3": {
+            "src": "/images/fw22/jackets/Gonz_GORE-TEX_Shell_Jacket/yellow/5AMrLKN0Os4.jpg",
+            "alt": "yellow gonz gore-tex jacket pattern",
+            "color": "yellow"
+          }
+        }
+      },
+      "studded_quilted_leather_jacket": {
+        "item1": {
+          "image1": {
+            "src": "/images/fw22/jackets/studded_quilted_leather_jacket/black/IyQX_OGsVC0.jpg",
+            "alt": "black leather studded and quilted jacket front",
+            "color": "black"
+          },
+          "image2": {
+            "src": "/images/fw22/jackets/studded_quilted_leather_jacket/black/aORQ0nO-2DQ.jpg",
+            "alt": "black leather studded and quilted jacket back",
+            "color": "black"
+          },
+          "image3": {
+            "src": "/images/fw22/jackets/studded_quilted_leather_jacket/black/noB182HYSgY.jpg",
+            "alt": "black leather studded and quilted jacket inside",
+            "color": "black"
+          },
+          "image4": {
+            "src": "/images/fw22/jackets/studded_quilted_leather_jacket/black/l2pV9MOOZ5s.jpg",
+            "alt": "black leather studded and quilted jacket pattern",
+            "color": "black"
+          }
+        },
+        "item1": {
+          "image1": {
+            "src": "/images/fw22/jackets/studded_quilted_leather_jacket/black/IyQX_OGsVC0.jpg",
+            "alt": "black leather studded and quilted jacket front",
+            "color": "black"
+          },
+          "image2": {
+            "src": "/images/fw22/jackets/studded_quilted_leather_jacket/black/aORQ0nO-2DQ.jpg",
+            "alt": "black leather studded and quilted jacket back",
+            "color": "black"
+          },
+          "image3": {
+            "src": "/images/fw22/jackets/studded_quilted_leather_jacket/black/noB182HYSgY.jpg",
+            "alt": "black leather studded and quilted jacket inside",
+            "color": "black"
+          },
+          "image4": {
+            "src": "/images/fw22/jackets/studded_quilted_leather_jacket/black/l2pV9MOOZ5s.jpg",
+            "alt": "black leather studded and quilted jacket pattern",
+            "color": "black"
+          }
+        },
+
+        "item2": {
+          "image1": {
+            "src": "/images/fw22/jackets/studded_quilted_leather_jacket/red/8p0zmmCrkqA.jpg",
+            "alt": "red leather studded and quilted jacket front",
+            "color": "red"
+          },
+          "image2": {
+            "src": "/images/fw22/jackets/studded_quilted_leather_jacket/red/1Y4tdoNG6iU.jpg",
+            "alt": "red leather studded and quilted jacket back",
+            "color": "red"
+          },
+          "image3": {
+            "src": "/images/fw22/jackets/studded_quilted_leather_jacket/red/GESq-YKeink.jpg",
+            "alt": "red leather studded and quilted jacket inside",
+            "color": "red"
+          },
+          "image4": {
+            "src": "/images/fw22/jackets/studded_quilted_leather_jacket/red/tLNxeUPa-c4.jpg",
+            "alt": "red leather studded and quilted jacket pattern",
+            "color": "red"
+          }
+        },
+
+        "item3": {
+          "image1": {
+            "src": "/images/fw22/jackets/studded_quilted_leather_jacket/white/4zNLaGIXWT8.jpg",
+            "alt": "white leather studded and quilted jacket front",
+            "color": "white"
+          },
+          "image2": {
+            "src": "/images/fw22/jackets/studded_quilted_leather_jacket/white/46ULUpbxB14.jpg",
+            "alt": "white leather studded and quilted jacket back",
+            "color": "white"
+          },
+          "image3": {
+            "src": "/images/fw22/jackets/studded_quilted_leather_jacket/white/vFZsG32hSek.jpg",
+            "alt": "white leather studded and quilted jacket inside",
+            "color": "white"
+          },
+          "image4": {
+            "src": "/images/fw22/jackets/studded_quilted_leather_jacket/white/OC810ie1xOE.jpg",
+            "alt": "white leather studded and quilted jacket pattern",
+            "color": "white"
+          }
+        }
+      }
     },
-    "image3": {
-      "src": "/images/ss22lookbook/image3",
-      "alt": "image3"
+    "pants": {
+      "elephant_sweatpant": {
+        "item1": {
+          "image1": {
+            "src": "/images/fw22/pants/elephant_sweatpant/black/iqM5_iyRSFs.jpg",
+            "alt": "black elephant sweatpants front",
+            "color": "black"
+          },
+          "image1": {
+            "src": "/images/fw22/pants/elephant_sweatpant/black/8wXLUXcnMaY.jpg",
+            "alt": "black elephant sweatpants back",
+            "color": "black"
+          },
+          "image1": {
+            "src": "/images/fw22/pants/elephant_sweatpant/black/snMXkOkg8pk.jpg",
+            "alt": "black elephant sweatpants pattern",
+            "color": "black"
+          }
+        },
+        "item2": {
+          "image1": {
+            "src": "/images/fw22/pants/elephant_sweatpant/green/tYyoIoLc6kg.jpg",
+            "alt": "green elephant sweatpants front",
+            "color": "green"
+          },
+          "image1": {
+            "src": "/images/fw22/pants/elephant_sweatpant/green/Y6emUvir-Uk.jpg",
+            "alt": "green elephant sweatpants back",
+            "color": "green"
+          },
+          "image1": {
+            "src": "/images/fw22/pants/elephant_sweatpant/green/qWN4YKeXkMY.jpg",
+            "alt": "green elephant sweatpants pattern",
+            "color": "green"
+          }
+        },
+        "item3": {
+          "image1": {
+            "src": "/images/fw22/pants/elephant_sweatpant/heather grey/5dN6CyGj61I.jpg",
+            "alt": "heather grey elephant sweatpants front",
+            "color": "heather grey"
+          },
+          "image1": {
+            "src": "/images/fw22/pants/elephant_sweatpant/heather grey/xYq3NgLhkp8.jpg",
+            "alt": "heather grey elephant sweatpants back",
+            "color": "heather grey"
+          },
+          "image1": {
+            "src": "/images/fw22/pants/elephant_sweatpant/heather grey/0m9UlTRpN20.jpg",
+            "alt": "heather grey elephant sweatpants pattern",
+            "color": "heather grey"
+          }
+        }
+      }
     },
-    "image4": {
-      "src": "/images/ss22lookbook/image4",
-      "alt": "image4"
+    "shirts": {
+      "Heavenly_Silk_Polo": {
+        "item1": {
+          "image1": {
+            "src": "/images/fw22/shirts/Heavenly_Silk_Polo/black/4s8dNlofu2M.jpg",
+            "alt": "black heavenly silk polo front",
+            "color": "black"
+          },
+          "image2": {
+            "src": "/images/fw22/shirts/Heavenly_Silk_Polo/black/IjwBOATVLNw.jpg",
+            "alt": "black heavenly silk polo graphic",
+            "color": "black"
+          }
+        },
+        "item2": {
+          "image1": {
+            "src": "/images/fw22/shirts/Heavenly_Silk_Polo/white/y8_zYricIlA.jpg",
+            "alt": "white heavenly silk polo front",
+            "color": "white"
+          },
+          "image2": {
+            "src": "/images/fw22/shirts/Heavenly_Silk_Polo/white/QQCbfMHqghY.jpg",
+            "alt": "white heavenly silk polo graphic",
+            "color": "white"
+          }
+        }
+      }
+    },
+    "skate": {
+      "bogo_skateboard": {
+        "src": "/images/fw22/skate/bogo_skateboard.jpg",
+        "alt": "bogo graphic skateboard"
+      },
+      "elephant_skateboard": {
+        "src": "/images/fw22/skate/elephant_skateboard.jpg",
+        "alt": "elephant graphic skateboard"
+      },
+      "trash_skateboard": {
+        "src": "/images/fw22/skate/trash_skateboard.jpg",
+        "alt": "trash graphic skateboard"
+      }
+    },
+    "sweaters": {
+      "abstract_stripe_cardigan": {
+        "item1": {
+          "image1": {
+            "src": "/images/fw22/sweaters/abstract_stripe_cardigan/black/I52T_i1rv3E.jpg",
+            "alt": "black abstract striped cardigan front",
+            "color": "black"
+          },
+          "image2": {
+            "src": "/images/fw22/sweaters/abstract_stripe_cardigan/black/MJPkYrSZtpk.jpg",
+            "alt": "black abstract striped cardigan pattern",
+            "color": "black"
+          }
+        },
+        "item2": {
+          "image1": {
+            "src": "/images/fw22/sweaters/abstract_stripe_cardigan/light brown/FBNeVDqv62w.jpg",
+            "alt": "light brown abstract striped cardigan front",
+            "color": "light brown"
+          },
+          "image2": {
+            "src": "/images/fw22/sweaters/abstract_stripe_cardigan/light brown/Udhvr-ajnoc.jpg",
+            "alt": "light brown abstract striped cardigan pattern",
+            "color": "light brown"
+          }
+        },
+        "item3": {
+          "image1": {
+            "src": "/images/fw22/sweaters/abstract_stripe_cardigan/olive/D6Ghp2g9v60.jpg",
+            "alt": "olive abstract striped cardigan front",
+            "color": "olive"
+          },
+          "image2": {
+            "src": "/images/fw22/sweaters/abstract_stripe_cardigan/olive/LCabNSyGzhU.jpg",
+            "alt": "olive abstract striped cardigan pattern",
+            "color": "olive"
+          }
+        },
+        "item4": {
+          "image1": {
+            "src": "/images/fw22/sweaters/abstract_stripe_cardigan/plum/n3LqYnZ-mYc.jpg",
+            "alt": "plum abstract striped cardigan front",
+            "color": "plum"
+          },
+          "image2": {
+            "src": "/images/fw22/sweaters/abstract_stripe_cardigan/plum/AFFDmax6dWA.jpg",
+            "alt": "plum abstract striped cardigan pattern",
+            "color": "plum"
+          }
+        }
+      }
     }
   }
 }

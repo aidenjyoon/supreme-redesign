@@ -1,26 +1,26 @@
 import ShopContent from "../../components/shop/ShopContent";
-import { getAllCategories } from "../../helpers/utils";
+import { getAllCategories, getAllItems } from "../../helpers/utils";
 
 const ShopPage = (props) => {
-  const { categories } = props;
-
-  console.log(categories);
+  const { categories, items } = props;
 
   return (
     <>
-      <ShopContent />
+      <ShopContent categories={categories} items={items} />
     </>
   );
 };
 
 const getStaticProps = async () => {
   const allCategories = await getAllCategories();
+  const allItems = await getAllItems();
 
   return {
     props: {
       categories: allCategories,
+      items: allItems,
     },
-    revalidate: 1800,
+    revalidate: 18000,
   };
 };
 

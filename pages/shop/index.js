@@ -20,7 +20,6 @@ const getStaticProps = async () => {
       categories: allCategories,
       items: allItems,
     },
-    revalidate: 18000,
   };
 };
 

@@ -12,13 +12,16 @@ const ShopContent = (props) => {
   return (
     <>
       <section className={styles.container}>
-        {categories.map((category, idx) => {
+        {/* {categories.map((category, idx) => {
           return (
             <div key={idx} className={styles.tiles}>
               <ProductTile key={idx} itemData={items} />
             </div>
           );
-        })}
+        })} */}
+        <div className={styles.tiles}>
+          <ProductTile itemData={items} />
+        </div>
 
         {/* <div className={styles.tiles}>
           <ProductTile />
